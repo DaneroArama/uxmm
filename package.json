@@ -4,7 +4,7 @@
   "description": "UXMM Website",
   "scripts": {
     "build": "react-scripts build",
-    "start": "serve ."
+    "start": "react-scripts start"
   },
   "dependencies": {
     "react-scripts": "^5.0.1",
