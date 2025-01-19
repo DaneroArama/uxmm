@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "UXMM Website",
   "scripts": {
-    "build": "echo 'No build step required'",
+    "build": "[my-framework] build --output public",
     "start": "serve ."
   },
   "dependencies": {
