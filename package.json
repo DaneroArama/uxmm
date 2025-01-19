@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "UXMM Website",
   "scripts": {
-    "build": "[my-framework] build --output public",
+    "build": "react-scripts build",
     "start": "serve ."
   },
   "dependencies": {
