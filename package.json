@@ -1,38 +1,15 @@
 {
   "name": "uxmm",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "cra-template": "1.2.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.1"
-  },
+  "version": "1.0.0",
+  "description": "UXMM Website",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "echo 'No build step required'",
+    "start": "serve ."
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "serve": "^14.0.0"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^7.0.2"
+    "@fullhuman/postcss-purgecss": "^5.0.0"
   }
 }
