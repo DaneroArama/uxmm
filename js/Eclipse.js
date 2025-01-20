@@ -68,7 +68,7 @@ function animate() {
 }
 
 function calculateParticleCount() {
-    return Math.floor((canvas.width * canvas.height) / 6000);
+    return Math.floor((canvas.width * canvas.height) / 10000);
 }
 
 function onResize() {
