@@ -975,7 +975,8 @@ p {
 
 .partners-section {
     text-align: center;
-    padding: 50px 20px;
+    padding: 0 20px 50px 20px;
+    height: 70vh;
     background-color: #121521; /* Match your theme */
     color: #d8ecf8; /* Light text color */
 }
@@ -996,7 +997,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 5rem;
+    padding: 4em 2em;
 }
 
 .partners-logos img {
@@ -1006,7 +1008,8 @@ p {
 
 .contact-section {
     text-align: center;
-    padding: 50px 20px;
+    padding: 80px 20px 0 20px;
+    height: 70vh;
     background-color: #121521; /* Match your theme */
     color: white; /* Light text color */
 }
@@ -1020,16 +1023,6 @@ p {
     font-size: 16px;
     color: #c2ccff; /* Light text color */
     margin: 10px 0 30px;
-}
-
-.contact-section {
-    background-color: #121521; /* Button background color */
-    color: #fff; /* Button text color */
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    text-decoration: none;
 }
 
 .contact-button {
